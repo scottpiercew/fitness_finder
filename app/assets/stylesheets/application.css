@@ -13,12 +13,6 @@
  *= require_tree .
  *= require_self
  */
-.intro {
-  color: grey;
-  background-color: yellow;
-  text-align: center;
-  font-size: 30px;
-}
 
 body {
   font-family: 'Roboto', sans-serif;
@@ -38,20 +32,49 @@ body {
   padding-top: 15px;
 }
 
-.topBox {
-    width: 300px;
-    height: 100px;
-    box-sizing: border-box;
-    margin: auto;
-    text-align: center;
+h1 {
+  text-shadow: 3px 3px 8px #a8a4a4;
+  color: black;
+  font-size: 35px;
 }
 
-.middleBox {
-  height: 300px;
+h3 {
+  color: #565555;
 }
 
+p {
+  text-align: justify;
+  line-height: 100%;
+  color: #565555;
+}
 
+h2 {
+  color: #565555;
+  padding: 15px;
+}
 
+hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  padding: 5px 160px 5px;
+}
+
+.footer p {
+  font-size: 12px;
+  text-align: right;
+  padding: 10px;
+  color: grey;
+  display: inline-block;
+}
+
+.footer img {
+  display: inline-block;
+  height: 30px;
+  width: 60px;
+}
 
 @media (min-width: 600px) {
 
@@ -84,7 +107,16 @@ body {
   }
 
   .middleBox {
-    padding: 40px, 50px;
-    margin: 15px, 100px;
+    padding: 20px 160px 60px;
+  }
+
+  .bottomBox {
+    padding: 20px 160px 60px;
+  }
+
+  p {
+    text-align: justify;
+    line-height: 150%;
+    color: #565555
   }
 }
