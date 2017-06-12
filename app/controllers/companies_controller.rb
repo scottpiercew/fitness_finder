@@ -1,4 +1,9 @@
 class CompaniesController < ApplicationController
+  def index
+    
+  end
+
+
   def new
   end
 
@@ -14,8 +19,6 @@ class CompaniesController < ApplicationController
   def destroy
   end
 
-  def index
-  end
 
   def show
   end
