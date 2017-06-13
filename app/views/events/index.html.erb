@@ -1,6 +1,11 @@
 <h1>All of the Events</h1>
 
 <% @event.each do |event| %>
-  <p>Event date: <%= event.event_date %></p>
-  <h2><%= link_to event.start_time.strftime('%A'), company_event_path(event.company, event) %></h2>
-  <% end %>
+
+  <h2><%= link_to event.event_type, company_event_path(event.company, event) %> - <%= event.name %></h2>
+  <p>Event Date: <%= event.start_time.strftime("%A %d %b, %Y") %></p>
+  <p>Start Time: <%= event.start_time.strftime("%I:%M %p") %></p>
+  <p>End Time: <%= event.start_time.strftime("%I:%M %p") %></p>
+  <p>Location: <%= event.location %></p>
+
+<% end %>

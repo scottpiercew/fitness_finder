@@ -6,14 +6,17 @@ class EventsController < ApplicationController
   end
 
   def show
-
+    @event = Event.find(params[:id])
   end
-  
-  def new
 
+  def new
+    @event = Event.new
   end
 
   def create
+    @event = Event.create!(event_params)
+    redirect_to company_event_path
+    @company = Company.all
   end
 
   def update
@@ -23,6 +26,11 @@ class EventsController < ApplicationController
   end
 
   def destroy
+  end
+
+  private
+  def event_params
+    params.require(:event).permit(:name, :event_type, :location, :company_id, :start_time, :end_time)
   end
 
 end

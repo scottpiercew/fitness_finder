@@ -1,7 +1,4 @@
 class CompaniesController < ApplicationController
-  def home
-    _layout false, only: [:home]
-  end
 
   def index
     @company = Company.all
@@ -10,6 +7,7 @@ class CompaniesController < ApplicationController
 
   def show
     @company = Company.find(params[:id])
+    @event = Event.find(params[:id])
   end
 
   def new

@@ -1,0 +1,21 @@
+<div class="newEventForm">
+  <%= form_for @event do |f| %>
+
+  <%= f.label :name, class: 'label' %>
+  <%= f.text_field :name, class: 'textField' %>
+
+  <%= f.label :event_type, class: 'label' %>
+  <%= f.text_field :event_type, class: 'textField' %>
+
+  <%= f.label :location, class: 'label' %>
+  <%= f.text_field :location, class: 'textField' %>
+
+  <%= f.label :start_time, class: 'label' %>
+  <%= f.text_field :start_time, class: 'textField' %>
+
+  <%= f.label :end_time, class: 'label' %>
+  <%= f.text_field :end_time, class: 'textField' %>
+
+  <%= f.submit 'submit', class: 'submit' %>
+  <% end %>
+</div>

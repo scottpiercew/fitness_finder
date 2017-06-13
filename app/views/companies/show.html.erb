@@ -2,4 +2,18 @@
 <img src="<%= @company.img_url %>" alt="<%= @company.name %> Company Logo">
 <p><%= @company.name %> specializes in <%= @company.company_type %> classes.</p>
 
+
+<% @company.events.each do |event| %>
+
+  <h2><%= link_to event.event_type, company_event_path(event.company, event) %> - <%= event.name %></h2>
+  <p>Event Date: <%= event.start_time.strftime("%A %d %b, %Y") %></p>
+  <p>Start Time: <%= event.start_time.strftime("%I:%M %p") %></p>
+  <p>End Time: <%= event.start_time.strftime("%I:%M %p") %></p>
+  <p>Location: <%= event.location %></p>
+
+<% end %>
+
+
 <h3><%= link_to "Edit Company Information", edit_company_path %></h3>
+
+<h3><%= link_to "Add Event", new_company_event_path(@company, @event) %></h3>

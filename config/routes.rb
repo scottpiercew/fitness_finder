@@ -6,7 +6,6 @@ Rails.application.routes.draw do
   end
 
   resources :events
-  get 'companies/home'
 
   resources :landing, except: [:new, :create, :index, :edit, :update, :destroy]
 

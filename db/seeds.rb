@@ -14,16 +14,15 @@ flow_yoga = Company.create!(name: "Flow Yoga Center", company_type: "Yoga", img_
 solidcore = Company.create!(name: "Solidcore", company_type: "Group Fitness", img_url: "https://solidcore.co/wp-content/uploads/2016/03/black_logo-e1458008757845.png")
 
 
-mon_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "7:00", end_time: "8:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", event_date: "6-19-2017", company: hierarchy)
+mon_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "2017-6-19 7:00", end_time: "2017-6-19 8:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", company: hierarchy)
+mon_noon_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "2017-6-19 12:00", end_time: "2017-6-19 1:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", company: hierarchy)
 
-mon_noon_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "12:00 PM", end_time: "1:00 PM", location: "1681 Kalorama Rd NW, Washington, DC 20009", event_date: "2017-06-19", company: hierarchy)
+wed_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "2017-6-21 7:00", end_time: "2017-6-21 8:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", company: hierarchy)
+wed__noon_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "2017-6-21 12:00", end_time: "2017-6-21 1:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", company: hierarchy)
+fri_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "2017-6-23 7:00", end_time: "2017-6-23 8:00", location: "1681 Kalorama Rd NW, Washington, DC 20009", company: hierarchy)
 
-wed_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "7:00 AM", end_time: "8:00 AM", location: "1681 Kalorama Rd NW, Washington, DC 20009", event_date: "6/21/2017", company: hierarchy)
-wed__noon_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "12:00 PM", end_time: "1:00 PM", location: "1681 Kalorama Rd NW, Washington, DC 20009", event_date: "6/21/2017", company: hierarchy)
-fri_morn_hierarchy = Event.create!(name: "WOD", event_type: "Crossfit", start_time: "7:00 AM", end_time: "8:00 AM", location: "1681 Kalorama Rd NW, Washington, DC 20009", event_date: "6/23/2017", company: hierarchy)
+mon_morn_flow_yoga = Event.create!(name: "Vinyasa Flow", event_type: "Yoga", start_time: "2017-6-19 8:00", end_time: "2017-6-19 9:00", location: "1508 14th St NW, Washington, DC 20005", company: flow_yoga)
+mon_noon_flow_yoga = Event.create!(name: "Vinyasa Flow", event_type: "Yoga", start_time: "2017-6-19 11:45", end_time: "2017-6-19 1:00", location: "1508 14th St NW, Washington, DC 20005", company: flow_yoga)
 
-mon_morn_flow_yoga = Event.create!(name: "Vinyasa Flow", event_type: "Yoga", start_time: "8:00 AM", end_time: "9:00 AM", location: "1508 14th St NW, Washington, DC 20005", event_date: "6/19/2017", company: flow_yoga)
-mon_noon_flow_yoga = Event.create!(name: "Vinyasa Flow", event_type: "Yoga", start_time: "11:45 AM", end_time: "1:00 PM", location: "1508 14th St NW, Washington, DC 20005", event_date: "6/19/2017", company: flow_yoga)
-
-mon_noon_solidcore = Event.create!(name: "solidcore", event_type: "Group Fitness", start_time: "12:30 PM", end_time: "1:45 PM", location: "1706 Columbia Rd NW, Washington, DC 20009", event_date: "6/19/2017", company: solidcore)
-mon_noon_two_solidcore = Event.create!(name: "solidcore", event_type: "Group Fitness", start_time: "2:30 PM", end_time: "3:45 PM", location: "1706 Columbia Rd NW, Washington, DC 20009", event_date: "6/19/2017", company: solidcore)
+mon_noon_solidcore = Event.create!(name: "solidcore", event_type: "Group Fitness", start_time: "2017-6-19 12:30", end_time: "2017-6-19 1:45", location: "1706 Columbia Rd NW, Washington, DC 20009", company: solidcore)
+mon_noon_two_solidcore = Event.create!(name: "solidcore", event_type: "Group Fitness", start_time: "2017-6-19 2:30", end_time: "2017-6-19 3:45", location: "1706 Columbia Rd NW, Washington, DC 20009", company: solidcore)
