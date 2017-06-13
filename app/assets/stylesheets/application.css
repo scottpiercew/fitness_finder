@@ -33,17 +33,18 @@ body {
 }
 
 h1 {
-  text-shadow: 3px 3px 8px #a8a4a4;
-  color: black;
-  font-size: 35px;
+  text-shadow: 4px 4px 12px orange;
+  color: white;
+  font-size: 55px;
 }
 
 h3 {
-  color: #565555;
+  text-shadow: 4px 4px 12px black;
+  color: orange;
+  font-size: 20px;
 }
 
 p {
-  text-align: justify;
   line-height: 100%;
   color: #565555;
 }
@@ -102,7 +103,7 @@ input[type=text] {
   .topBox {
     width: auto;
     height: 400px;
-    background-image: url("/assets/hiking_outdoors");
+    background-image: url("/assets/bike-fitness");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -132,7 +133,6 @@ input[type=text] {
   }
 
   p {
-    text-align: justify;
     line-height: 150%;
     color: #565555
   }
