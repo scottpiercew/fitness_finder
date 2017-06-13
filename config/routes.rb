@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'companies#home'
+  root to: 'landing#show'
 
   resources :companies do
     resources :events
@@ -7,6 +7,8 @@ Rails.application.routes.draw do
 
   resources :events
   get 'companies/home'
+
+  resources :landing, except: [:new, :create, :index, :edit, :update, :destroy]
 
 
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
