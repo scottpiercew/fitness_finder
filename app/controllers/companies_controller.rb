@@ -1,4 +1,8 @@
 class CompaniesController < ApplicationController
+  def home
+    _layout false, only: [:home]
+  end
+
   def index
     @company = Company.all
     @event = Event.all
