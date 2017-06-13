@@ -1,0 +1,14 @@
+<div class="newCompanyForm">
+  <%= form_for @company do |f| %>
+  <%= f.label :name, class: 'label' %>
+  <%= f.text_field :name, class: 'textField'%>
+
+  <%= f.label :company_type, class: 'label' %>
+  <%= f.text_field :company_type, class: 'textField'%>
+
+  <%= f.label :img_url, class: 'label' %>
+  <%= f.text_field :img_url, class: 'textField'%>
+
+  <%= f.submit 'submit', class: 'submit' %>
+  <% end %>
+</div>

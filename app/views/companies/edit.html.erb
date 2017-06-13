@@ -1,2 +1,5 @@
-<h1>Companies#edit</h1>
-<p>Find me in app/views/companies/edit.html.erb</p>
+<h1>Edit Company Information</h1>
+
+<%= render 'form' %>
+
+<%= link_to "Delete Company", company_path(@company), method: :delete, class: 'delete' %>

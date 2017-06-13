@@ -1,2 +1,8 @@
-<h1>Companies#index</h1>
-<p>Find me in app/views/companies/index.html.erb</p>
+<h1>Explore your favorite gyms</h1>
+
+<% @company.each do |company| %>
+  <h2><%= link_to company.name, company_path(company) %></h2>
+  <img src="<%= company.img_url %>" alt="Company Logo">
+<% end %>
+
+<h3><%= link_to "Add company", new_company_path %></h3>
