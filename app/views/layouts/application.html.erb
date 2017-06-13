@@ -3,7 +3,7 @@
   <head>
     <title>FitnessFinder</title>
     <%= csrf_meta_tags %>
-
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </head>
@@ -11,6 +11,8 @@
   <body>
     <h1><%= link_to "Fitness Companies", companies_path %></h1>
     <h1><%= link_to "Types of Classes", events_path%></h1>
+
     <%= yield %>
+
   </body>
 </html>

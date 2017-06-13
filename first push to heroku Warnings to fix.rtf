@@ -1,0 +1,129 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 STIXGeneral-Regular;}
+{\colortbl;\red255\green255\blue255;}
+{\*\expandedcolortbl;;}
+\margl1440\margr1440\vieww10800\viewh8400\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf0 $ heroku create fitness-finder\
+Creating 
+\f1 \uc0\u11042 
+\f0  fitness-finder... done\
+https://fitness-finder.herokuapp.com/ | https://git.heroku.com/fitness-finder.git\
+  Sun Jun 11 23:17:43 ~/wdi/projects/fitness_finder (deploying *)\
+$ git push heroku deploying:master\
+Counting objects: 144, done.\
+Delta compression using up to 4 threads.\
+Compressing objects: 100% (130/130), done.\
+Writing objects: 100% (144/144), 35.44 KiB | 0 bytes/s, done.\
+Total 144 (delta 21), reused 0 (delta 0)\
+remote: Compressing source files... done.\
+remote: Building source:\
+remote:\
+remote:  !     Warning: Multiple default buildpacks reported the ability to handle this app. The first buildpack in the list below will be used.\
+remote: 			Detected buildpacks: Ruby,Node.js\
+remote: 			See https://devcenter.heroku.com/articles/buildpacks#buildpack-detect-order\
+remote: -----> Ruby app detected\
+remote: -----> Compiling Ruby/Rails\
+remote: -----> Using Ruby version: ruby-2.3.4\
+remote: -----> Installing dependencies using bundler 1.13.7\
+remote:        Running: bundle install --without development:test --path vendor/bundle --binstubs vendor/bundle/bin -j4 --deployment\
+remote:        Fetching gem metadata from https://rubygems.org/.........\
+remote:        Fetching version metadata from https://rubygems.org/..\
+remote:        Fetching dependency metadata from https://rubygems.org/.\
+remote:        Installing i18n 0.8.4\
+remote:        Installing rake 12.0.0\
+remote:        Installing concurrent-ruby 1.0.5\
+remote:        Installing minitest 5.10.2\
+remote:        Installing thread_safe 0.3.6\
+remote:        Installing builder 3.2.3\
+remote:        Installing erubi 1.6.0\
+remote:        Installing mini_portile2 2.2.0\
+remote:        Installing nio4r 2.1.0 with native extensions\
+remote:        Installing rack 2.0.3\
+remote:        Installing websocket-extensions 0.1.2\
+remote:        Installing mime-types-data 3.2016.0521\
+remote:        Installing arel 8.0.0\
+remote:        Installing coffee-script-source 1.12.2\
+remote:        Installing execjs 2.7.0\
+remote:        Installing method_source 0.8.2\
+remote:        Installing multi_json 1.12.1\
+remote:        Installing thor 0.19.4\
+remote:        Installing puma 3.9.1 with native extensions\
+remote:        Installing pg 0.20.0 with native extensions\
+remote:        Using bundler 1.13.7\
+remote:        Installing sass 3.4.24\
+remote:        Installing tilt 2.0.7\
+remote:        Installing turbolinks-source 5.0.3\
+remote:        Installing tzinfo 1.2.3\
+remote:        Installing nokogiri 1.8.0 with native extensions\
+remote:        Installing websocket-driver 0.6.5 with native extensions\
+remote:        Installing mime-types 3.1\
+remote:        Installing rack-test 0.6.3\
+remote:        Installing sprockets 3.7.1\
+remote:        Installing coffee-script 2.4.1\
+remote:        Installing uglifier 3.2.0\
+remote:        Installing turbolinks 5.0.1\
+remote:        Installing activesupport 5.1.1\
+remote:        Installing mail 2.6.5\
+remote:        Installing globalid 0.4.0\
+remote:        Installing activemodel 5.1.1\
+remote:        Installing jbuilder 2.7.0\
+remote:        Installing activejob 5.1.1\
+remote:        Installing activerecord 5.1.1\
+remote:        Installing rails-dom-testing 2.0.3\
+remote:        Installing loofah 2.0.3\
+remote:        Installing rails-html-sanitizer 1.0.3\
+remote:        Installing actionview 5.1.1\
+remote:        Installing actionpack 5.1.1\
+remote:        Installing actionmailer 5.1.1\
+remote:        Installing actioncable 5.1.1\
+remote:        Installing railties 5.1.1\
+remote:        Installing sprockets-rails 3.2.0\
+remote:        Installing rails 5.1.1\
+remote:        Installing coffee-rails 4.2.2\
+remote:        Installing sass-rails 5.0.6\
+remote:        Bundle complete! 16 Gemfile dependencies, 52 gems now installed.\
+remote:        Gems in the groups development and test were not installed.\
+remote:        Bundled gems are installed into ./vendor/bundle.\
+remote:        Bundle completed (25.48s)\
+remote:        Cleaning up the bundler cache.\
+remote: -----> Installing node-v6.10.0-linux-x64\
+remote: -----> Detecting rake tasks\
+remote: -----> Preparing app for Rails asset pipeline\
+remote:        Running: rake assets:precompile\
+remote:        Yarn executable was not detected in the system.\
+remote:        Download Yarn at https://yarnpkg.com/en/docs/install\
+remote:        I, [2017-06-12T03:19:46.418875 #1262]  INFO -- : Writing /tmp/build_5615ef8d9ced802cc9ba13155d74d5dd/public/assets/application-0bf1968d3504f37f3ca44a033cdf942a837f4a7aeb96bdc22764f464046f64ad.js\
+remote:        I, [2017-06-12T03:19:46.419554 #1262]  INFO -- : Writing /tmp/build_5615ef8d9ced802cc9ba13155d74d5dd/public/assets/application-0bf1968d3504f37f3ca44a033cdf942a837f4a7aeb96bdc22764f464046f64ad.js.gz\
+remote:        I, [2017-06-12T03:19:46.460026 #1262]  INFO -- : Writing /tmp/build_5615ef8d9ced802cc9ba13155d74d5dd/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css\
+remote:        I, [2017-06-12T03:19:46.460219 #1262]  INFO -- : Writing /tmp/build_5615ef8d9ced802cc9ba13155d74d5dd/public/assets/application-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css.gz\
+remote:        Asset precompilation completed (3.82s)\
+remote:        Cleaning assets\
+remote:        Running: rake assets:clean\
+remote:\
+remote: ###### WARNING:\
+remote:        You have not declared a Ruby version in your Gemfile.\
+remote:        To set your Ruby version add this line to your Gemfile:\
+remote:        ruby '2.3.4'\
+remote:        # See https://devcenter.heroku.com/articles/ruby-versions for more information.\
+remote:\
+remote: ###### WARNING:\
+remote:        No Procfile detected, using the default web server.\
+remote:        We recommend explicitly declaring how to boot your server process via a Procfile.\
+remote:        https://devcenter.heroku.com/articles/ruby-default-web-server\
+remote:\
+remote: -----> Discovering process types\
+remote:        Procfile declares types     -> (none)\
+remote:        Default types for buildpack -> console, rake, web, worker\
+remote:\
+remote: -----> Compressing...\
+remote:        Done: 34.8M\
+remote: -----> Launching...\
+remote:        Released v5\
+remote:        https://fitness-finder.herokuapp.com/ deployed to Heroku\
+remote:\
+remote: Verifying deploy... done.\
+To https://git.heroku.com/fitness-finder.git\
+ * [new branch]      deploying -> master\
+  Sun Jun 11 23:19:57 ~/wdi/projects/fitness_finder (deploying *)}
