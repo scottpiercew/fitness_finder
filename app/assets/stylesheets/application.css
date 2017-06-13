@@ -33,15 +33,16 @@ body {
 }
 
 h1 {
-  text-shadow: 4px 4px 12px orange;
+  text-shadow: 4px 4px 12px black;
   color: white;
   font-size: 55px;
 }
 
 h3 {
-  text-shadow: 4px 4px 12px black;
-  color: orange;
+  /*text-shadow: 4px 4px 12px #4088bf;*/
+  color: #4088bf;
   font-size: 20px;
+  background: white;
 }
 
 p {
@@ -102,8 +103,8 @@ input[type=text] {
 
   .topBox {
     width: auto;
-    height: 400px;
-    background-image: url("/assets/bike-fitness");
+    height: 365px;
+    background-image: url("/assets/bike-color");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,12 +112,11 @@ input[type=text] {
     right: 0;
     margin: 0;
     padding: 0;
-    opacity: 0.8;
   }
 
   .topBox img {
     width: 400px;
-    height: 200px;
+    height: 230px;
     box-sizing: border-box;
     margin: auto;
     text-align: center;
