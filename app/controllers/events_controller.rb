@@ -1,5 +1,16 @@
 class EventsController < ApplicationController
+
+  def index
+    @company = Company.all
+    @event = Event.all
+  end
+
+  def show
+
+  end
+  
   def new
+
   end
 
   def create
@@ -14,9 +25,4 @@ class EventsController < ApplicationController
   def destroy
   end
 
-  def index
-  end
-
-  def show
-  end
 end
