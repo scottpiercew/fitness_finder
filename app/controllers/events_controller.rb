@@ -11,21 +11,31 @@ class EventsController < ApplicationController
 
   def new
     @event = Event.new
+    @company = Company.find(params[:company_id])
   end
 
   def create
-    @event = Event.create!(event_params)
-    redirect_to company_event_path
-    @company = Company.all
-  end
-
-  def update
+    @company = Company.find(params[:company_id])
+    @event = @company.events.create!(event_params)
+    redirect_to company_event_path(@company, @event)
   end
 
   def edit
+    @company = Company.find(params[:company_id])
+    @event = Event.find(params[:id])
+  end
+
+  def update
+    @company = Company.find(params[:company_id])
+    @event = Event.find(params[:id])
+    @event.update!(event_params)
+    redirect_to company_event_path(@company, @event)
   end
 
   def destroy
+    @event = Event.find(params[:id])
+    @event.destroy
+    redirect_to companies_path
   end
 
   private
