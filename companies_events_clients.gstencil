@@ -24,7 +24,7 @@
 	<key>MasterSheets</key>
 	<array/>
 	<key>ModificationDate</key>
-	<string>2017-06-14 21:35:46 +0000</string>
+	<string>2017-06-11 23:07:41 +0000</string>
 	<key>Modifier</key>
 	<string>Scott Pierce</string>
 	<key>MovementHandleVisible</key>
@@ -144,8 +144,8 @@
 					<real>-1</real>
 					<key>Points</key>
 					<array>
-						<string>{444, 196}</string>
-						<string>{445.44661448865861, 249.25018440092396}</string>
+						<string>{445.29427083333331, 155.85416666666666}</string>
+						<string>{445.77457176066781, 231.25001014515834}</string>
 					</array>
 					<key>Style</key>
 					<dict>
@@ -1454,7 +1454,7 @@
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\slleading40\partightenfactor0
 
-\f0\fs18 \cf0 Model: 
+\f0\fs18 \cf0 Model:
 \f1\b Client
 \fs20 \
 
@@ -1853,7 +1853,7 @@
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\slleading40\partightenfactor0
 
-\f0\fs18 \cf0 Model: 
+\f0\fs18 \cf0 Model:
 \f1\b Event
 \fs20 \
 
@@ -3040,7 +3040,7 @@
 					<array>
 						<dict>
 							<key>Bounds</key>
-							<string>{{371.25057133150347, 249.74999999999994}, {149.24892866849657, 30.540916557075427}}</string>
+							<string>{{371.25057133150347, 231.74999999999994}, {149.24892866849657, 30.540916557075427}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -3122,7 +3122,7 @@
 						</dict>
 						<dict>
 							<key>Bounds</key>
-							<string>{{371.25, 279.89645025548248}, {149.24892866849657, 47.478549744517522}}</string>
+							<string>{{371.25, 261.89645025548248}, {149.24892866849657, 47.478549744517522}}</string>
 							<key>Class</key>
 							<string>ShapedGraphic</string>
 							<key>FitText</key>
@@ -3214,7 +3214,7 @@
 {\*\expandedcolortbl;;}
 \pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\slleading40\partightenfactor0
 
-\f0\fs18 \cf0 Model: 
+\f0\fs18 \cf0 Model:
 \f1\b Company
 \fs20 \
 
@@ -3232,7 +3232,7 @@
 							<array>
 								<dict>
 									<key>Bounds</key>
-									<string>{{371.25, 327.375}, {87.258889203425412, 16}}</string>
+									<string>{{371.25, 309.375}, {87.258889203425412, 16}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -3308,7 +3308,7 @@
 								</dict>
 								<dict>
 									<key>Bounds</key>
-									<string>{{458.50888920342538, 327.375}, {61.989468133567669, 16}}</string>
+									<string>{{458.50888920342538, 309.375}, {61.989468133567669, 16}}</string>
 									<key>Class</key>
 									<string>ShapedGraphic</string>
 									<key>FitText</key>
@@ -3972,7 +3972,7 @@
 	<key>WindowInfo</key>
 	<dict>
 		<key>Frame</key>
-		<string>{{454, 4}, {819, 773}}</string>
+		<string>{{892, 1338}, {819, 856}}</string>
 		<key>ShowInfo</key>
 		<false/>
 		<key>Sidebar</key>
