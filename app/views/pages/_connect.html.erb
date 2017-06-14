@@ -1,1 +1,13 @@
 
+<div class="contactForm">
+  <%= simple_form_for @contact do |f| %>
+    <%= f.input :email, required: true %>
+    <%= f.input :name, required: true %>
+
+    <div class= "hidden">
+      <%= f.input :nickname, :hint => 'Leave this field blank!' %>
+    </div>
+
+    <%= f.button :submit, 'Send email', class:  'submit' %>
+  <% end %>
+</div>
