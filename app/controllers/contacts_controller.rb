@@ -12,7 +12,7 @@ class ContactsController < ApplicationController
       redirect_to root_path
     else
       flash.now[:error] = t('contacts.error')
-      render :new
+      redirect_to root_path
     end
   end
 end
