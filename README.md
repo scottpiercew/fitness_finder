@@ -16,10 +16,10 @@ The production environment uses sendgrid. More info here: https://app.sendgrid.c
 
 
 ## Unsolved issues:
-markup :  * -No current API integrations with existing companies. 
-          * -The email information entered by users is sent to a single email address and not stored in the database.
-          * -Need to expand the events field to allow for more dynamic showing of event types, that don't get repeated.
-          * -Would like to build a search feature for events and companies.
+-No current API integrations with existing companies. 
+-The email information entered by users is sent to a single email address and not stored in the database.
+-Need to expand the events field to allow for more dynamic showing of event types, that don't get repeated.
+-Would like to build a search feature for events and companies.
 
 
 ***
