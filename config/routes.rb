@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'landing#show'
+  root to: 'contacts#index'
 
   resources :companies do
     resources :events
@@ -9,6 +9,6 @@ Rails.application.routes.draw do
 
   resources :landing, except: [:new, :create, :index, :edit, :update, :destroy]
 
+  resources :contacts
 
-  # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 end
