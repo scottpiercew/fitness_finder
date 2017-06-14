@@ -22,3 +22,6 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+I used sendGrid to set up an API.
+mailcatcher was used to collect emails from the landing page.
