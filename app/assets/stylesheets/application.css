@@ -13,3 +13,31 @@
  *= require_tree .
  *= require_self
  */
+
+.header {
+  display: flex;
+  height: 75px;
+}
+
+.header h2 a {
+  text-decoration: none;
+  border-style: outset;
+  border-color: #4088bf orange;
+  padding: 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.header a:hover {
+    background-color: #4088bf;
+    color: white;
+}
+
+.header img {
+  height: 50px;
+  width: 100px;
+  padding: 4px;
+  margin: 5px 15px;
+  background-color: orange;
+  border-style: outset;
+}
