@@ -1,5 +1,5 @@
 Rails.application.routes.draw do
-  root to: 'contacts#index'
+  root to: 'pages#landing'
 
   resources :companies do
     resources :events

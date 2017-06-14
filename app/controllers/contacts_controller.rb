@@ -1,9 +1,5 @@
 class ContactsController < ApplicationController
 
-  def index
-    render :layout => 'landing'
-  end
-
   def new
     @contact = Contact.new
   end

@@ -1,8 +1,0 @@
-<div class="contactForm">
-  <%= simple_form_for @contact do |f| %>
-    <%= f.input :email, :required => true %>
-    <%= f.input :message, :as => :text, :required => true %>
-    <% f.input :nickname, :hint => 'Leave this field blank!' %>
-    <%= f.button :submit, 'Send emal', :class=> "btn btn-primary" %>
-  <% end %>
-</div>
