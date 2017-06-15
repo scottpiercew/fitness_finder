@@ -10,6 +10,6 @@ Rails.application.routes.draw do
 
   resources :landing, except: [:new, :create, :index, :edit, :update, :destroy]
 
-  resources :contacts
+  resources :contacts, only: [:new, :create]
 
 end

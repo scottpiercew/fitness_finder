@@ -52,24 +52,43 @@ hr {
   padding: 5px 160px 5px;
 }
 
+.footer {
+  height: 60px;
+}
 .footer p {
   font-size: 12px;
-  text-align: right;
-  padding: 10px;
+  text-align: center;
+  padding: auto 30px;
+  margin: 10px 40px;
   color: grey;
   display: inline-block;
 }
 
 .footer img {
   display: inline-block;
-  height: 30px;
-  width: 60px;
+  height: 40px;
+  width: 80px;
+  margin: auto 40px;
+  float: left;
+}
+
+.signInForm a {
+  background-color: #dddddd;
+  color: #565555;
+  border-radius: 3px;
+  padding: 5px 20px;
+  border: 1px solid #565555;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 15px;
+  margin: auto 20px;
+  text-decoration: none;
+  float: right;
 }
 
 .contactForm {
-  margin-left: auto;
+  margin: auto;
   text-align: center;
-
 }
 
 input {

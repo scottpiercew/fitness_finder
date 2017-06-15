@@ -9,6 +9,7 @@
 Company.destroy_all
 Event.destroy_all
 
+
 hierarchy = Company.create!(name: "Crossfit Hierarchy", company_type: "Crossfit", img_url: "http://crossfithierarchy.com/images/northwest.jpg")
 flow_yoga = Company.create!(name: "Flow Yoga Center", company_type: "Yoga", img_url: "https://static1.squarespace.com/static/54482313e4b059dd18a323fa/t/54b00e53e4b086f1342f6576/1420824148033/flow-yoga-center-logo.png?format=1000w")
 solidcore = Company.create!(name: "Solidcore", company_type: "Group Fitness", img_url: "https://solidcore.co/wp-content/uploads/2016/03/black_logo-e1458008757845.png")

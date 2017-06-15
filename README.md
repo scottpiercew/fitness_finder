@@ -9,7 +9,7 @@ Tested in Google Chrome v.58
 
 
 ## The build:
-I started the project by stenciling the trainer_classes_clients ERD with OmniGraffle. I branched off for building the landing page and email form for quick deployment on heroku. Then, I built out nested CRUD functions for companies and events. I merged my deploying branch with the master branch to incorporate functionality across the app. Layout/application.html.erb yields the app's views and renders a header and footer based on the route to keep a clean, minimal landing page design. Devise and CanCanCan were used to establish authorization and authentication, however, current build has devise acting as a single user system. 
+I started the project by stenciling the trainer_classes_clients ERD with OmniGraffle. I branched off for building the landing page and email form for quick deployment on heroku. Then, I built out nested CRUD functions for companies and events. I merged my deploying branch with the master branch to incorporate functionality across the app. Layout/application.html.erb yields the app's views and renders a header and footer based on the route to keep a clean, minimal landing page design. Devise and CanCanCan were used to establish authorization and authentication, however, current build has devise acting as a single user system.
 
 
 ## Installation instructions:
@@ -56,3 +56,5 @@ https://www.cloudflare.com\
 https://rubygems.org/gems/mail_form/versions/1.5.1
 
 https://stackoverflow.com/
+
+https://github.com/plataformatec/devise/wiki/How-To:-Set-up-devise-as-a-single-user-system
