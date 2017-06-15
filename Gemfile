@@ -60,3 +60,5 @@ gem 'sendgrid-ruby'
 gem 'mail_form'
 
 gem 'simple_form', '~> 3.5'
+
+gem 'rb-readline'
