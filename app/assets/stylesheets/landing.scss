@@ -121,7 +121,7 @@ input[type=submit] {
   .topBox {
     width: auto;
     height: 365px;
-    background-image: url("/assets/bike-color");
+    background-image: asset-url("bike-color.jpg");
     background-color: #ffffff;
     background-repeat: no-repeat;
     background-size: cover;
