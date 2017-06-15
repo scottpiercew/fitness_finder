@@ -1,12 +1,7 @@
-
 <div class="contactForm">
   <%= simple_form_for @contact do |f| %>
     <%= f.input :name, required: true, placeholder: "Your name...", label_html: { class: 'inputType' } %>
     <%= f.input :email, required: true, placeholder: "Your email...", label_html: { class: 'inputType' } %>
-
-
     <%= f.button :submit, 'Submit', class:  'submit' %>
-
-
   <% end %>
 </div>
