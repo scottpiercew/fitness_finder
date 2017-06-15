@@ -39,3 +39,28 @@
   padding: 4px;
   margin: 5px 15px;
 }
+
+.flash {
+  border: 1px solid black;
+  padding: 1em;
+  background: #eee;
+}
+
+.flash {
+  border: 1px solid orange;
+  padding: 15px;
+  background: -webkit-linear-gradient(left, orange, white);
+  background: -o-linear-gradient(left, orange, white);
+  background: linear-gradient(to right, orange, white);
+  font-size: 20px;
+}
+.alert  {
+  color: red;
+  font-size: 20;
+  background-color: orange;
+}
+.notice {
+  color: blue;
+  font-size: 20;
+  background-color: orange;
+}

@@ -8,11 +8,9 @@ class ContactsController < ApplicationController
     @contact = Contact.new(params[:contact])
     @contact.request = request
     if @contact.deliver
-      flash.now[:notice] = 'Thank you, and you will be the first to know about the launch date for The Quad!'
-      redirect_to root_path
+      redirect_to root_path, notice: "Thank you, and you will be the first to know about the launch date for The Quad!"
     else
-      flash.now[:error] = 'Cannot send, please try again.'
-      redirect_to root_path
+      redirect_to root_path, error: "Cannot send, please try again."
     end
   end
 end

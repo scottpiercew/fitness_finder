@@ -17,7 +17,7 @@ before_action :authenticate_user!
 
   def create
     @company = Company.create!(company_params)
-    redirect_to company_path(@company)
+    redirect_to company_path(@company), notice: "Your company was successfully added to The Quad!"
   end
 
   def edit

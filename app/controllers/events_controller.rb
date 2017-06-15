@@ -18,7 +18,7 @@ before_action :authenticate_user!
   def create
     @company = Company.find(params[:company_id])
     @event = @company.events.create!(event_params)
-    redirect_to company_event_path(@company, @event)
+    redirect_to company_event_path(@company, @event), notice: "Your class was successfully added to The Quad!"
   end
 
   def edit
