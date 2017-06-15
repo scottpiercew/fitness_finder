@@ -3,12 +3,10 @@ before_action :authenticate_user!
 
   def index
     @company = Company.all
-    @event = Event.all
   end
 
   def show
     @company = Company.find(params[:id])
-    @event = Event.find(params[:id])
   end
 
   def new
