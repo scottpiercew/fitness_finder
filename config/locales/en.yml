@@ -31,3 +31,7 @@
 
 en:
   hello: "Hello world"
+
+  contacts:
+    delivery: Thank you for your message. We will contact you soon!
+    error: Cannot send message.

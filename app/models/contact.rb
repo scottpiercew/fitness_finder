@@ -5,19 +5,8 @@ class Contact < MailForm::Base
   def headers
     {
       :subject => "Connect Message from The Quad Co Site",
-      :to => Setting.contact_email,
+      :to => Secret.get('CONTACT_EMAIL'),
       :from => %("#{name}" <#{email}>)
     }
-  end
-
-  # simple_form automatically uses `id` for the option value.
-  def id
-    @key
-  end
-
-  # simple_form automatically uses this for the option text.
-  def name
-    # I18n.t(@key, scope: :"models.order.interests")
-    @key
   end
 end
