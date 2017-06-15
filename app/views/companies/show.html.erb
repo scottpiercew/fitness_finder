@@ -1,7 +1,6 @@
 <h1><%= @company.name %></h1>
-<img src="<%= @company.img_url %>" alt="<%= @company.name %> Company Logo">
+<%= image_tag @company.img_url, alt: @company.name, class: "img" %>
 <p><%= @company.name %> specializes in <%= @company.company_type %> classes.</p>
-
 
 <% @company.events.each do |event| %>
 
