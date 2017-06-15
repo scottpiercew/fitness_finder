@@ -62,3 +62,5 @@ gem 'mail_form'
 gem 'simple_form', '~> 3.5'
 
 gem 'devise'
+
+gem 'cancancan', '~> 1.10'

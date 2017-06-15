@@ -9,7 +9,7 @@ Tested in Google Chrome v.58
 
 
 ## The build:
-I started the project by stenciling the trainer_classes_clients ERD with OmniGraffle. I branched off for building the landing page and email form for quick deployment on heroku. Then, I built out nested CRUD functions for companies and events. I merged my deploying branch with the master branch to incorporate functionality across the app. Layout/application.html.erb yields the app's views and renders a header and footer based on the route to keep a clean, minimal landing page design.
+I started the project by stenciling the trainer_classes_clients ERD with OmniGraffle. I branched off for building the landing page and email form for quick deployment on heroku. Then, I built out nested CRUD functions for companies and events. I merged my deploying branch with the master branch to incorporate functionality across the app. Layout/application.html.erb yields the app's views and renders a header and footer based on the route to keep a clean, minimal landing page design. Devise and CanCanCan were used to establish authorization and authentication, however, current build has devise acting as a single user system. 
 
 
 ## Installation instructions:
@@ -22,6 +22,7 @@ The production environment uses sendgrid. More info here: https://app.sendgrid.c
 -The email information entered by users is sent to a single email address and not stored in the database.
 -Need to expand the events field to allow for more dynamic showing of event types, that don't get repeated.
 -Would like to build a search feature for events and companies.
+-Companies and Events are not yet tied with a single user.
 
 
 ***
