@@ -112,24 +112,25 @@ input[type=submit] {
   border-radius: 3px;
 }
 
+.topBox {
+  width: auto;
+  height: 365px;
+  background-image: asset-url("exercise-ball.jpg");
+  background-color: #ffffff;
+  background-repeat: no-repeat;
+  background-size: cover;
+  left: 0;
+  right: 0;
+  margin: 0;
+  padding: 0;
+}
+
 @media (min-width: 600px) {
 
   body {
 
   }
 
-  .topBox {
-    width: auto;
-    height: 365px;
-    background-image: asset-url("exercise-ball.jpg");
-    background-color: #ffffff;
-    background-repeat: no-repeat;
-    background-size: cover;
-    left: 0;
-    right: 0;
-    margin: 0;
-    padding: 0;
-  }
 
   .topBox img {
     width: 400px;
