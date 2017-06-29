@@ -1,9 +1,6 @@
 # Fitness-Finder
 
 
-# Fitness-Finder
-
-
 ## Technologies used:
 Ruby version 2.4.1, Rails 5.1.1, html.erb, css
 Tested in Google Chrome v.58
