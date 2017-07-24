@@ -54,6 +54,7 @@ hr {
 
 .footer {
   height: 60px;
+  background-color: #3a3a3a;
 }
 .footer p {
   font-size: 12px;
@@ -70,6 +71,12 @@ hr {
   width: 80px;
   margin: auto 40px;
   float: left;
+}
+
+.footer a {
+  text-decoration: none;
+  font-size: 12px;
+  color: grey;
 }
 
 .signInForm a {
@@ -124,6 +131,43 @@ input[type=submit] {
   margin: 0;
   padding: 0;
 }
+.yogaWorks {
+
+}
+.yogaWorks img {
+  max-width: 30em;
+}
+.examples {
+  color: orange;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 2rem;
+  }
+  .examples div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 1em 5% 1em;
+  padding: 0 1rem;
+  border: 2px solid #f2f7f5;
+  background: orange;
+  border-radius: 1em;
+  border-style: ridge;
+  position: relative;
+  }
+  .examples div h1 {
+    margin: 1em 0 0.25em;
+    font-size: 2em;
+    }
+  .examples p {
+  font-size: 1.2em;
+  }
+  .examples div h3 {
+    margin: 1em 0 0.25em;
+    font-size: 1.5em;
+    background: none;
+    text-align: center;
+    }
 
 @media (min-width: 600px) {
 
