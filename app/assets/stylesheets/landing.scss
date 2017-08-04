@@ -51,7 +51,45 @@ hr {
   border-width: 1px;
   padding: 5px 160px 5px;
 }
-
+.promoBox {
+  color: orange;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-gap: 1rem;
+  }
+  .promoBox div {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0 1rem;
+  }
+  .promoBox div h1 {
+    margin: 1em 0 0.25em;
+    font-size: 2em;
+    }
+  .promoBox p {
+  font-size: 1.2em;
+  }
+  .promoBox div h3 {
+    margin: 1em 0 0.25em;
+    font-size: 1.5em;
+    background: none;
+    text-align: center;
+    }
+  .promoBox img {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+.promoBoxThird {
+  border: 2px solid #f2f7f5;
+  border-radius: 1em;
+  border-style: ridge;
+  position: relative;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -moz-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
 .footer {
   height: 60px;
   background-color: #3a3a3a;
@@ -130,12 +168,6 @@ input[type=submit] {
   right: 0;
   margin: 0;
   padding: 0;
-}
-// .yogaWorksImg {
-//   max-width: 30em;
-// }
-.yogaWorks img {
-  max-width: 30em;
 }
 .examples {
   color: orange;
